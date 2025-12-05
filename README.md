@@ -91,3 +91,19 @@ student_performance/
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
 ```
+
+## Testing Results
+Here are the results from 3 test cases run on the Streamlit dashboard:
+
+### Case 1: High Performer
+**Input**: Study Time >10h, Absences 0, High Grades.
+![High Performer](testcase/case1_high.png)
+
+### Case 2: Average Student
+**Input**: Study Time 2-5h, Absences 4, Average Grades.
+![Average Student](testcase/case2_avg.png)
+
+### Case 3: At Risk Student
+**Input**: Study Time <2h, Absences 15, Low Grades.
+![At Risk Student](testcase/case3_risk.png)
+
