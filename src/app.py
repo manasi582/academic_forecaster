@@ -7,7 +7,7 @@ import seaborn as sns
 from preprocessing import load_data, preprocess_data
 
 # Set page config
-st.set_page_config(page_title="Student Performance Prediction", layout="wide")
+st.set_page_config(page_title="Academic Forecaster", layout="wide")
 
 @st.cache_data
 def load_and_prep_data(subject='mat'):
@@ -16,7 +16,7 @@ def load_and_prep_data(subject='mat'):
     return df, X.columns
 
 def main():
-    st.title("🎓 Student Performance Prediction")
+    st.title("🎓 Academic Forecaster using Random Forest")
     st.markdown("Predict student final grade (G3) and pass/fail status based on various features.")
     
     # Sidebar for subject selection
