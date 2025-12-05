@@ -1,4 +1,4 @@
-# Academic Forecaster using Random Forest & Streamlit
+# Academic Forecaster using Random Forest
 
 ## Project Overview
 This project is a **Machine Learning application** designed to predict a student's final academic grade (`G3`) and their Pass/Fail status based on various demographic, social, and academic factors. It utilizes the UCI Student Performance Dataset and provides an interactive Streamlit dashboard for real-time predictions.
