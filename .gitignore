@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Project specific
+# data/  <-- Commenting out to include data as per "push all this", but usually we ignore it.
+# Let's ignore the zip file though
+data/*.zip
+data/*.zip_old
